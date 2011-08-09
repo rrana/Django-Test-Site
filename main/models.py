@@ -8,4 +8,4 @@ class Category(models.Model):
     class Admin:
         pass
     class Meta:
-        pass
+        verbose_name_plural = "Categories"
