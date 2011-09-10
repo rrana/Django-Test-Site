@@ -1,0 +1,8 @@
+{% extends "../templates/base.html" %}
+
+{% block title %} Meta data {% endblock %}
+{% block content %}
+<table>
+{% for k, v in values %}<tr><td> {{ k }} : {{ v }}</tr></td> {% endfor %}
+</table>
+{% endblock %}

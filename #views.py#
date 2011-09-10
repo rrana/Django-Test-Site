@@ -23,4 +23,6 @@ def hours_ahead(request, offset):
 
 def display_meta(request):
         return render_to_response('meta.html',{'values': sorted(request.META.items())})
-        
+
+def test(request):
+    return render_to_response('test.html', 

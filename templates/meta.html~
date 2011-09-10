@@ -1,0 +1,7 @@
+{% extends "templates/base.html" %}
+
+{% block title %} Meta data {% endblock %}
+{% block content %}
+{% for k, v in values %} {{ k }}{{ v }} {% endif %}
+
+{% endblock %}
